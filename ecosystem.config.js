@@ -10,7 +10,7 @@ module.exports = {
         key: '~/.ssh/pm2-test.pem',
         ref: 'origin/main',
         repo: 'https://github.com/ajtoussaint/pm2-test.git',
-        path: '/home/ubuntu/pm2-test',
+        path: '/home/ubuntu/authorized_keys',
         'post-deploy': 'npm install && pm2 startOrRestart ecosystem.config.js'
       }
     }
